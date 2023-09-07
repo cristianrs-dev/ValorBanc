@@ -25,3 +25,43 @@ color:#ffffff;
 background-color: #1e90ff;
 font-family: Georgia;
 }
+.carrossel{
+    border: 1px solid black;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ilustracao{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 100px;
+}
+
+.servicos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border: 1px solid black;
+}
+.produtos,.clientes{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 100px;
+}
+
+.testemunhos{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.relacionamento{
+    display: flex;
+}
+.simulacao{
+    display:flex;
+    flex-direction: column;
+}
