@@ -26,7 +26,6 @@ background-color: #1e90ff;
 font-family: Georgia;
 }
 .carrossel{
-    border: 1px solid black;
     height: 300px;
     display: flex;
     align-items: center;
@@ -120,3 +119,20 @@ justify-content:space-around;
    border: 1px solid black;
 }
 
+footer{
+    background-color:#57606f;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+.empresa,.redes-sociais,.endereço{
+    margin: 20px;
+}
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+}
+.topico{
+    background-color:#57606f;
+}
