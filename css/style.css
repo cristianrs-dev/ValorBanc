@@ -60,16 +60,19 @@ font-family: Georgia;
 }
 .relacionamento{
 display: flex;
+justify-content:space-around;
 }
+
 .formulario{
     max-width: 200px;
     padding: 10px;
-    border: 1px solid black  ;
 }
+
 .descricao{
     color: #57606f;
 }
 .formulario input{
+    width: 300px;
     padding: 9px;
     border-radius: 5px;
     margin: 4px;
@@ -86,3 +89,34 @@ display: flex;
     margin: 4px;
     border-radius: 5px;
 }
+.contato{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.contato-zap{
+    max-width: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.botao-zap{
+    background-color:#2ed573;
+    color: white;
+    font-size: large;
+    border: #74b9ff;
+    cursor: pointer;
+    padding: 9px;
+    margin: 4px;
+    border-radius: 5px;
+}
+.img-atendente{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   max-width: 500px;
+   border: 1px solid black;
+}
+
