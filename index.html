@@ -71,12 +71,19 @@
 
     <div class="relacionamento">
 
-        <div class="simulacao">
-            <input type="text">
-            <button>simular</button>
-        </div>
+        <form class="formulario">
+            <label class="descricao" for="valor_emprestimo">Valor do Empréstimo:</label>
+            <input type="number" id="valor_emprestimo" name="valor_emprestimo" placeholder="R$" required>
+    
+            <label class="descricao" for="taxa_juros">Taxa de Juros (% ao ano):</label>
+            <input type="number" id="taxa_juros" name="taxa_juros" required>
+    
+            <label class="descricao" for="parcelas">Número de Parcelas:</label>
+            <input type="number" id="parcelas" name="parcelas" required>
+    
+            <button  class="botao-simular" type="submit">Simular Empréstimo</button>
+        </form>
 
-        <div></div>
     </div>
     
     <script src="js/script.js"></script>

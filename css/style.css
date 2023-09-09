@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #f1f2f6;
+    background-color:white;
 }
 
 .header{
@@ -59,9 +59,30 @@ font-family: Georgia;
     padding: 50px;
 }
 .relacionamento{
-    display: flex;
+display: flex;
 }
-.simulacao{
-    display:flex;
-    flex-direction: column;
+.formulario{
+    max-width: 200px;
+    padding: 10px;
+    border: 1px solid black  ;
+}
+.descricao{
+    color: #57606f;
+}
+.formulario input{
+    padding: 9px;
+    border-radius: 5px;
+    margin: 4px;
+    background-color:#dfe4ea;
+    border: none;
+}
+.botao-simular{
+    background-color: #74b9ff;
+    color: white;
+    font-size: large;
+    border: #74b9ff;
+    cursor: pointer;
+    padding: 9px;
+    margin: 4px;
+    border-radius: 5px;
 }
