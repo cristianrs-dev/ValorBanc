@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .header {
@@ -9,7 +10,12 @@
     justify-content: space-around;
     background-color: #1e90ff;
 }
-
+.zap{
+    width: 60px;
+    position: fixed;
+    margin-left: 20px;
+    
+}
 .logotipo {
     max-width: 10%;
     height: auto;
@@ -49,9 +55,10 @@
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #f1f2f6;
+    color:#57606f
 }
 
 .produtos {
@@ -61,6 +68,7 @@
     flex-direction: column;
     align-items: center;
     padding: 10px;
+
 }
 
 .img-servico {
@@ -69,7 +77,8 @@
     height: auto;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    
+    color:#57606f;
+
 }
 
 .testemunhos {
@@ -157,7 +166,32 @@
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     padding-left: 20px;
-   
+
+}
+
+.faq {
+    color: #57606f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faq>h1{
+    margin-bottom: 20px;
+}
+
+.faq>ol>li {
+    border-bottom: 1px solid #57606f;
+    text-align: justify;
+    padding: 15px;
+    max-width: 700px;
+    font-size: large;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 footer {
@@ -168,6 +202,16 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+.empresa{
+    font-size:x-large;  
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 
 .logo-footer,
 .redes-sociais a,
@@ -175,6 +219,10 @@ footer {
 
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.instagram, .facebook,.tiktok,.tp{
+    width: 50px;
+    height: auto;
 }
 
 .rodape {
