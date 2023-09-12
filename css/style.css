@@ -1,84 +1,113 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    background-color:white;
 }
 
-.header{
+.header {
     padding: 50px;
-    display:flex;
+    display: flex;
     justify-content: space-around;
     background-color: #1e90ff;
 }
 
-.logotipo{
-    width: 10%;
+.logotipo {
+    max-width: 10%;
+    height: auto;
 }
 
-.menu li,.menu a{
-list-style: none;
-text-transform: uppercase;
-text-decoration: none;
-font-weight:lighter;
-padding: 5px;
-color:#ffffff;
-background-color: #1e90ff;
-font-family: Georgia;
+
+.menu li,
+.menu a {
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: lighter;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #1e90ff;
+    font-family: Georgia;
 }
-.carrossel{
-    height: 300px;
+
+.carrossel {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.ilustracao {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 70%;
+
+}
+
+.servicos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.produtos {
+    max-width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.img-servico {
+    max-width: 80%;
+    display: flex;
+    height: auto;
+}
+
+.testemunhos {
+    background-color: #ffa502;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.ilustracao{
-    border: 1px solid black;
-    margin: 10px;
-    padding: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
 }
 
-.servicos{
+.img-testemunho {
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+.relacionamento {
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-    border: 1px solid black;
-}
-.produtos,.clientes{
-    border: 1px solid black;
-    margin: 10px;
-    padding: 100px;
+    justify-content: space-around;
 }
 
-.testemunhos{
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-}
-.relacionamento{
-display: flex;
-justify-content:space-around;
-}
-
-.formulario{
+.formulario {
     max-width: 200px;
     padding: 10px;
 }
 
-.descricao{
+.descricao {
     color: #57606f;
 }
-.formulario input{
+
+.formulario input {
     width: 300px;
     padding: 9px;
     border-radius: 5px;
     margin: 4px;
-    background-color:#dfe4ea;
+    background-color: #dfe4ea;
     border: none;
 }
-.botao-simular{
+
+.botao-simular {
     background-color: #74b9ff;
     color: white;
     font-size: large;
@@ -88,21 +117,24 @@ justify-content:space-around;
     margin: 4px;
     border-radius: 5px;
 }
-.contato{
+
+.contato {
     display: flex;
     text-align: center;
     justify-content: center;
 }
-.contato-zap{
+
+.contato-zap {
     max-width: 200px;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 }
-.botao-zap{
-    background-color:#2ed573;
+
+.botao-zap {
+    background-color: #2ed573;
     color: white;
     font-size: large;
     border: #74b9ff;
@@ -111,28 +143,39 @@ justify-content:space-around;
     margin: 4px;
     border-radius: 5px;
 }
-.img-atendente{
+
+.img-atendente {
     display: flex;
     justify-content: center;
-   align-items: center;
-   max-width: 500px;
-   border: 1px solid black;
+    align-items: center;
+    max-width: 500px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-left: 20px;
+   
 }
 
-footer{
-    background-color:#57606f;
-    border: 1px solid black;
+footer {
+    background-color: #57606f;
+    padding-top: 60px;
+    padding-bottom: 60px;
     display: flex;
     justify-content: space-around;
-    padding: 100px;
+    align-items: center;
 }
-.empresa,.redes-sociais,.endereço{
-    margin: 20px;
+
+.logo-footer,
+.redes-sociais a,
+.endereco {
+
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.redes-sociais{
-    display: flex;
-    flex-direction: column;
-}
-.topico{
-    background-color:#57606f;
+
+.rodape {
+    background-color: #2f3542;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
 }
