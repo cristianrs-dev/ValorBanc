@@ -10,10 +10,15 @@
     justify-content: space-around;
     background-color: #1e90ff;
 }
+li> a.destaque{
+    background-color: #ffa502;
+    border-radius: 10px;
+}
 .zap{
     width: 60px;
     position: fixed;
     margin-left: 20px;
+    z-index: 1;
     
 }
 .logotipo {
