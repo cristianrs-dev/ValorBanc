@@ -1,0 +1,1 @@
+alert("imagens meramente ilustrativas")
