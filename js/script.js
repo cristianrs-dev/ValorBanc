@@ -1,1 +1,1 @@
-alert("imagens meramente ilustrativas")
+//alert("imagens meramente ilustrativas")
